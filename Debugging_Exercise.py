@@ -45,7 +45,7 @@ def main():
     products = [
         {"name": "Laptop", "price": 1000, "discount_rate": 0.1},
         {"name": "Smartphone", "price": 800, "discount_rate": 0.15},
-        {"name": "Tablet", "price": "500", "discount_rate": 0.2},
+        {"name": "Tablet", "price": 500, "discount_rate": 0.2},
         {"name": "Headphones", "price": 200, "discount_rate": 0.05},
     ]
 
@@ -66,3 +66,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
