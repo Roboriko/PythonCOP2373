@@ -17,7 +17,7 @@ def process_purchase(tickets_remaining):
 
         # Here the user will be asked how many tickets they would like to purchase
         try:
-            tickets_requested = int(input("How many tickets would you like to purchase? "))
+            tickets_requested = int(input("Please enter the number of tickets you would like to purchase: "))
 
             # Here the program will check if the requested number of tickets is within purchase limits
             if tickets_requested < 1 or tickets_requested > 4:
