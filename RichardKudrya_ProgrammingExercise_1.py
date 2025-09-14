@@ -41,7 +41,7 @@ def ticket_sales():
 
     # Here the variables are initialized
     tickets_remaining = TOTAL_TICKETS
-    buyer_count = 0
+    customer_count = 0
 
     # Here the program displays a welcome message
     print("Welcome to the Cinema Ticket Presale!")
@@ -61,7 +61,7 @@ def ticket_sales():
         tickets_remaining -= tickets_bought
 
         # Here adds a buyer to the buyer count
-        buyer_count += 1
+        customer_count += 1
 
         # Here the program displays purchase confirmation
         print(f"You purchased {tickets_bought} ticket(s).")
@@ -69,7 +69,7 @@ def ticket_sales():
 
     # Here the program displays the final number of buyers
     print("Tickets are sold out!")
-    print(f"Number of buyers: {buyer_count}")
+    print(f"Number of buyers: {customer_count}")
 
 
 # Here the program runs
