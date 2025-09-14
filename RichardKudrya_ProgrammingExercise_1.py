@@ -8,7 +8,8 @@
 
 
 # This is the constant for the total number of tickets available
-TOTAL_TICKETS = 20
+# Total tickets changed from 20 to 10
+TOTAL_TICKETS = 10
 
 
 def process_purchase(tickets_remaining):
